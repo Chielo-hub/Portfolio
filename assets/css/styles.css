@@ -1,0 +1,170 @@
+html, body{
+	font-size:16px;
+	color: #dfdfdf;
+	background-color: #063647; 
+}
+
+a {
+  color: #00d1b2;
+}
+
+a:hover {
+  color: #00d1b2;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background: #063647;
+}
+
+.section-2 {
+	background-color: #052D3D;
+}
+
+.section-3 {
+	background-color: #0E282E;
+}
+
+.section-4 {
+	background-color: #00d1b2;
+	color: black;
+	font-size: large;
+	display: flex;
+	gap: 4px;
+}
+
+.section-5 {
+	background-color: #063647;
+	padding: 0.2rem;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+.avatar{
+	height:200px;
+	border-radius: 50%;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: fit-content;
+	max-width: 256px;
+}
+
+.project-text {
+	text-align: justify;
+}
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgba(7, 59, 79, 0.5);
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #063647;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+}
+
+#contactform {
+    margin: 50px auto; 
+    max-width: 400px; 
+    padding: 20px;
+    border-radius: 10px; 
+    background-color:black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+	color: white;
+
+}
+
+#contactform form {
+    display: flex;
+    flex-direction: column; 
+}
+
+#contactform label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#contactform input, #contact textarea, #contact button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+	margin-bottom: auto;
+}
+
+#contactform textarea{
+	border-color: #007BFF;
+    outline: none; 
+	border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+#contactform button {
+    background-color:rgb(14, 40, 46);
+    color: white;
+    border: thin;
+    cursor: pointer;
+	border-top: 30px;
+	border-radius: 3px;
+}
+
+#contactform button:hover {
+    background-color: rgb(6, 54, 71);
+}
+
+#contactform .error {
+    color: red;
+    font-size: 0.9em;
+}
